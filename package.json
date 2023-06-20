@@ -1,10 +1,11 @@
 {
   "name": "@quantumart/qp8-widget-platform-bridge",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "Данный пакет предназначен для организации взаимодействия по технологии Module Federation между оболочкой (проектом, построенным на основе qp8-widget-platform-shell) и модулем (проектом, построенным на основе qp8-widget-platform-modules)",
   "main": "dist/main.js",
   "module": "dist/main.js",
   "typings": "dist/index.d.ts",
+  "prepublish": "build",
   "scripts": {
     "build": "rimraf dist && webpack --mode production --progress --config config/webpack.config.js",
     "lint": "eslint \"src/**/*.ts{,x}\""
