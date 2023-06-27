@@ -15,6 +15,7 @@ export interface PageNode {
 export interface IWPRoutesStore {
   getBreadcrumbs(): BreadcrumbItem[];
   getSiteMap(maxDeep?: number): PageNode[];
+  getTailUrl(): string;
 }
 
 export const WPRoutesStoreContext = React.createContext<IWPRoutesStore | undefined>(undefined);
