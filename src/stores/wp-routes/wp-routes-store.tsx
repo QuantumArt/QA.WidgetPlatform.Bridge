@@ -9,7 +9,6 @@ export interface PageNode {
   title: string;
   link: string;
   children: PageNode[];
-  isvisible: true;
 }
 
 export interface IWPRoutesStore {
