@@ -1,6 +1,6 @@
 {
   "name": "@quantumart/qp8-widget-platform-bridge",
-  "version": "8.0.3",
+  "version": "8.0.4",
   "description": "Данный пакет предназначен для организации взаимодействия по технологии Module Federation между оболочкой (проектом, построенным на основе qp8-widget-platform-shell) и модулем (проектом, построенным на основе qp8-widget-platform-modules)",
   "main": "dist/main.js",
   "module": "dist/main.js",

@@ -6,3 +6,4 @@ export * from './stores/abstract-item/abstract-item';
 export * from './stores/zone/zone-store';
 export * from './stores/wp-apollo-client/wp-apollo-client';
 export * from './stores/wp-routes/wp-routes-store'
+export * from './stores/event-bus/event-bus-store'
