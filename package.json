@@ -1,6 +1,6 @@
 {
   "name": "@quantumart/qp8-widget-platform-bridge",
-  "version": "8.0.4",
+  "version": "8.0.5",
   "description": "Данный пакет предназначен для организации взаимодействия по технологии Module Federation между оболочкой (проектом, построенным на основе qp8-widget-platform-shell) и модулем (проектом, построенным на основе qp8-widget-platform-modules)",
   "main": "dist/main.js",
   "module": "dist/main.js",
@@ -25,7 +25,8 @@
   ],
   "peerDependencies": {
     "react": ">=18.0.0",
-    "react-dom": ">=18.2.0"
+    "react-dom": ">=18.2.0",
+    "graphql": "^14.0.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
@@ -48,9 +49,5 @@
     "typescript": "^5.0.4",
     "webpack": "^5.78.0",
     "webpack-cli": "^5.0.1"
-  },
-  "dependencies": {
-    "@apollo/client": "^3.7.15",
-    "graphql": "^16.6.0"
   }
 }
