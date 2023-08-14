@@ -1,6 +1,7 @@
 import React from 'react';
 
 export interface IZoneStore {
+  currentZoneName?: string;
   getZoneComponent(zoneName: string): JSX.Element;
   DynamicZone(prop: { html: string }): JSX.Element;
 }
