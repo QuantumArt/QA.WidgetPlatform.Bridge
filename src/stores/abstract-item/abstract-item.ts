@@ -5,6 +5,7 @@ export interface IAbstractItem {
   readonly alias: string;
   readonly nodeType: string;
   readonly children: IAbstractItem[];
+  readonly sortOrder: number;
 }
 
 export const AbstractItemContext = React.createContext<IAbstractItem | undefined>(undefined);
