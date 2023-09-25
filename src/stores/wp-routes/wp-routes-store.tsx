@@ -8,6 +8,7 @@ export interface BreadcrumbItem {
 export interface PageNode {
   title: string;
   link: string;
+  additionalData: unknown;
   children: PageNode[];
 }
 
