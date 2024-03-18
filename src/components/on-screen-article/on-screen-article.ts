@@ -1,6 +1,7 @@
 import React from 'react';
 
 export interface IOnScreenArticleComponentProps {
+  id: number;
   title: string;
   contentId: number;
   published: boolean;
